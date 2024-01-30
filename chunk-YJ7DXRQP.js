@@ -1,0 +1,1 @@
+import{Ia as a,R as o,bb as i}from"./chunk-GM5DAWR3.js";var d=(()=>{let e=class e{};e.\u0275fac=function(n){return new(n||e)},e.\u0275cmp=o({type:e,selectors:[["app-events"]],standalone:!0,features:[a],decls:0,vars:0,template:function(n,s){},dependencies:[i],styles:["[_nghost-%COMP%]{display:block}"],changeDetection:0});let t=e;return t})();export{d as EventsComponent};
