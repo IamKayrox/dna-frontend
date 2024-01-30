@@ -1,0 +1,15 @@
+<div class="page-content">
+  @for (post of posts; track $index) {
+    <div class="post-card">
+      <h2 class="card-title">
+        {{ post.title }}
+      </h2>
+      <p class="card-content">
+        {{ post.body }}
+      </p>
+      <div class="card-date">
+        {{ post.date | date }}
+      </div>
+    </div>
+  }
+</div>

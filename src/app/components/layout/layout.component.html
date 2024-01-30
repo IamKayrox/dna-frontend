@@ -1,0 +1,11 @@
+<div class="sidebar"></div>
+<div class="navbar">
+  @for (tab of tabs; track $index) {
+    <a [routerLink]="tab.path" routerLinkActive="active" class="navbar-link">
+      {{tab.i18n}}
+    </a>
+  }
+</div>
+<div class="content">
+  <ng-content></ng-content>
+</div>
